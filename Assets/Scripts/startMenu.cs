@@ -2,17 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
+using System;
 
 public class startMenu : MonoBehaviour
 {
-    public Button myButton;
+    public Button mainButton;
+    Boolean gameStarted = false;
+    float currentY = 0;
 
     // Start is called before the first frame update
     void Start()
     {
-        if (myButton != null)
+        if (mainButton != null)
         {
-            myButton.onClick.AddListener(OnButtonClick);
+            mainButton.onClick.AddListener(OnButtonClick);
         }
         else
         {
@@ -23,8 +27,16 @@ public class startMenu : MonoBehaviour
     // Method to be called when the button is clicked
     void OnButtonClick()
     {
-        Debug.Log("Button clicked!");
-        // Perform your desired action here
+        TextMeshProUGUI buttonText = mainButton.GetComponentInChildren<TextMeshProUGUI>();
+        if (buttonText != null && gameStarted == false)
+        {
+            buttonText.transform.localScale = new Vector3(0.0f, 0.0f, 0.0f);
+            gameStarted = true;
+        } 
+        else
+        {
+            Debug.LogError("Button has no text child");
+        }
     }
 
     // Update is called once per frame
