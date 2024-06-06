@@ -431,7 +431,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 107,
       "PayloadLength": 32,
-      "PayloadDebugContentSnippet": "C:\\Users\\lukaz\\repos\\tower-sta",
+      "PayloadDebugContentSnippet": "C:\\Users\\Virus\\repos\\tower-sta",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.UnityAdditionalFile.txt"
@@ -457,7 +457,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 45567,
       "PayloadLength": 45,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\lukaz\\repos",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Virus\\repos",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.rsp2"
@@ -2642,7 +2642,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 53768,
       "PayloadLength": 32,
-      "PayloadDebugContentSnippet": "C:\\Users\\lukaz\\repos\\tower-sta",
+      "PayloadDebugContentSnippet": "C:\\Users\\Virus\\repos\\tower-sta",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.UnityAdditionalFile.txt"
@@ -2668,7 +2668,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 93629,
       "PayloadLength": 45,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\lukaz\\repos",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Virus\\repos",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.rsp2"
@@ -3342,7 +3342,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 102368,
       "PayloadLength": 32,
-      "PayloadDebugContentSnippet": "C:\\Users\\lukaz\\repos\\tower-sta",
+      "PayloadDebugContentSnippet": "C:\\Users\\Virus\\repos\\tower-sta",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/UnityEditor.TestRunner.UnityAdditionalFile.txt"
@@ -3368,7 +3368,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 153888,
       "PayloadLength": 45,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\lukaz\\repos",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Virus\\repos",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/UnityEditor.TestRunner.rsp2"
@@ -4054,7 +4054,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 162255,
       "PayloadLength": 32,
-      "PayloadDebugContentSnippet": "C:\\Users\\lukaz\\repos\\tower-sta",
+      "PayloadDebugContentSnippet": "C:\\Users\\Virus\\repos\\tower-sta",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.UnityAdditionalFile.txt"
@@ -4080,7 +4080,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 199258,
       "PayloadLength": 45,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\lukaz\\repos",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Virus\\repos",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.rsp2"
@@ -4671,7 +4671,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 208336,
       "PayloadLength": 32,
-      "PayloadDebugContentSnippet": "C:\\Users\\lukaz\\repos\\tower-sta",
+      "PayloadDebugContentSnippet": "C:\\Users\\Virus\\repos\\tower-sta",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.AdaptivePerformance.UI.Editor.UnityAdditionalFile.txt"
@@ -4697,7 +4697,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 242589,
       "PayloadLength": 45,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\lukaz\\repos",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Virus\\repos",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.AdaptivePerformance.UI.Editor.rsp2"
@@ -5238,7 +5238,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 251762,
       "PayloadLength": 32,
-      "PayloadDebugContentSnippet": "C:\\Users\\lukaz\\repos\\tower-sta",
+      "PayloadDebugContentSnippet": "C:\\Users\\Virus\\repos\\tower-sta",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Mobile.AndroidLogcat.Editor.UnityAdditionalFile.txt"
@@ -5264,7 +5264,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 291394,
       "PayloadLength": 45,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\lukaz\\repos",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Virus\\repos",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Mobile.AndroidLogcat.Editor.rsp2"
@@ -5843,7 +5843,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 300559,
       "PayloadLength": 32,
-      "PayloadDebugContentSnippet": "C:\\Users\\lukaz\\repos\\tower-sta",
+      "PayloadDebugContentSnippet": "C:\\Users\\Virus\\repos\\tower-sta",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Notifications.Android.UnityAdditionalFile.txt"
@@ -5869,7 +5869,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 334372,
       "PayloadLength": 45,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\lukaz\\repos",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Virus\\repos",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Notifications.Android.rsp2"
@@ -6385,7 +6385,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 343277,
       "PayloadLength": 32,
-      "PayloadDebugContentSnippet": "C:\\Users\\lukaz\\repos\\tower-sta",
+      "PayloadDebugContentSnippet": "C:\\Users\\Virus\\repos\\tower-sta",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Notifications.iOS.UnityAdditionalFile.txt"
@@ -6411,7 +6411,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 377080,
       "PayloadLength": 45,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\lukaz\\repos",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Virus\\repos",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Notifications.iOS.rsp2"
@@ -6928,7 +6928,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 385981,
       "PayloadLength": 32,
-      "PayloadDebugContentSnippet": "C:\\Users\\lukaz\\repos\\tower-sta",
+      "PayloadDebugContentSnippet": "C:\\Users\\Virus\\repos\\tower-sta",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.UnityAdditionalFile.txt"
@@ -6954,7 +6954,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 451701,
       "PayloadLength": 45,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\lukaz\\repos",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Virus\\repos",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.rsp2"
@@ -7766,7 +7766,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 460398,
       "PayloadLength": 32,
-      "PayloadDebugContentSnippet": "C:\\Users\\lukaz\\repos\\tower-sta",
+      "PayloadDebugContentSnippet": "C:\\Users\\Virus\\repos\\tower-sta",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Profiling.Core.UnityAdditionalFile.txt"
@@ -7792,7 +7792,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 493909,
       "PayloadLength": 45,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\lukaz\\repos",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Virus\\repos",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Profiling.Core.rsp2"
@@ -8307,7 +8307,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 502802,
       "PayloadLength": 32,
-      "PayloadDebugContentSnippet": "C:\\Users\\lukaz\\repos\\tower-sta",
+      "PayloadDebugContentSnippet": "C:\\Users\\Virus\\repos\\tower-sta",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Rider.Editor.UnityAdditionalFile.txt"
@@ -8333,7 +8333,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 539740,
       "PayloadLength": 45,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\lukaz\\repos",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Virus\\repos",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Rider.Editor.rsp2"
@@ -8876,7 +8876,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 548353,
       "PayloadLength": 32,
-      "PayloadDebugContentSnippet": "C:\\Users\\lukaz\\repos\\tower-sta",
+      "PayloadDebugContentSnippet": "C:\\Users\\Virus\\repos\\tower-sta",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Subsystem.Registration.UnityAdditionalFile.txt"
@@ -8902,7 +8902,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 581309,
       "PayloadLength": 45,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\lukaz\\repos",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Virus\\repos",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Subsystem.Registration.rsp2"
@@ -9410,7 +9410,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 590209,
       "PayloadLength": 32,
-      "PayloadDebugContentSnippet": "C:\\Users\\lukaz\\repos\\tower-sta",
+      "PayloadDebugContentSnippet": "C:\\Users\\Virus\\repos\\tower-sta",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.UnityAdditionalFile.txt"
@@ -9436,7 +9436,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 628193,
       "PayloadLength": 45,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\lukaz\\repos",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Virus\\repos",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.rsp2"
@@ -10002,7 +10002,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 637079,
       "PayloadLength": 32,
-      "PayloadDebugContentSnippet": "C:\\Users\\lukaz\\repos\\tower-sta",
+      "PayloadDebugContentSnippet": "C:\\Users\\Virus\\repos\\tower-sta",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.UnityAdditionalFile.txt"
@@ -10028,7 +10028,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 676126,
       "PayloadLength": 45,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\lukaz\\repos",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Virus\\repos",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.rsp2"
@@ -10608,7 +10608,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 685014,
       "PayloadLength": 32,
-      "PayloadDebugContentSnippet": "C:\\Users\\lukaz\\repos\\tower-sta",
+      "PayloadDebugContentSnippet": "C:\\Users\\Virus\\repos\\tower-sta",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.UnityAdditionalFile.txt"
@@ -10634,7 +10634,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 719841,
       "PayloadLength": 45,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\lukaz\\repos",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Virus\\repos",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.rsp2"
@@ -11164,7 +11164,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 728991,
       "PayloadLength": 32,
-      "PayloadDebugContentSnippet": "C:\\Users\\lukaz\\repos\\tower-sta",
+      "PayloadDebugContentSnippet": "C:\\Users\\Virus\\repos\\tower-sta",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.UnityAdditionalFile.txt"
@@ -11190,7 +11190,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 815557,
       "PayloadLength": 45,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\lukaz\\repos",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Virus\\repos",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.rsp2"
@@ -12126,7 +12126,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 824463,
       "PayloadLength": 32,
-      "PayloadDebugContentSnippet": "C:\\Users\\lukaz\\repos\\tower-sta",
+      "PayloadDebugContentSnippet": "C:\\Users\\Virus\\repos\\tower-sta",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualStudio.Editor.UnityAdditionalFile.txt"
@@ -12152,7 +12152,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 861698,
       "PayloadLength": 45,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\lukaz\\repos",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Virus\\repos",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualStudio.Editor.rsp2"
@@ -12700,7 +12700,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 870314,
       "PayloadLength": 32,
-      "PayloadDebugContentSnippet": "C:\\Users\\lukaz\\repos\\tower-sta",
+      "PayloadDebugContentSnippet": "C:\\Users\\Virus\\repos\\tower-sta",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.CollabProxy.Editor.UnityAdditionalFile.txt"
@@ -12726,7 +12726,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 904588,
       "PayloadLength": 45,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\lukaz\\repos",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Virus\\repos",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.CollabProxy.Editor.rsp2"
@@ -13271,7 +13271,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 913829,
       "PayloadLength": 32,
-      "PayloadDebugContentSnippet": "C:\\Users\\lukaz\\repos\\tower-sta",
+      "PayloadDebugContentSnippet": "C:\\Users\\Virus\\repos\\tower-sta",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Notifications.Unified.UnityAdditionalFile.txt"
@@ -13297,7 +13297,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 947236,
       "PayloadLength": 45,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\lukaz\\repos",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Virus\\repos",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Notifications.Unified.rsp2"
@@ -13852,7 +13852,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 956311,
       "PayloadLength": 32,
-      "PayloadDebugContentSnippet": "C:\\Users\\lukaz\\repos\\tower-sta",
+      "PayloadDebugContentSnippet": "C:\\Users\\Virus\\repos\\tower-sta",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Notifications.UnityAdditionalFile.txt"
@@ -13878,7 +13878,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 991947,
       "PayloadLength": 45,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\lukaz\\repos",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Virus\\repos",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Notifications.rsp2"
@@ -14423,7 +14423,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1001269,
       "PayloadLength": 32,
-      "PayloadDebugContentSnippet": "C:\\Users\\lukaz\\repos\\tower-sta",
+      "PayloadDebugContentSnippet": "C:\\Users\\Virus\\repos\\tower-sta",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.Editor.UnityAdditionalFile.txt"
@@ -14449,7 +14449,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1039860,
       "PayloadLength": 45,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\lukaz\\repos",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Virus\\repos",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.Editor.rsp2"
@@ -15041,7 +15041,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1049089,
       "PayloadLength": 32,
-      "PayloadDebugContentSnippet": "C:\\Users\\lukaz\\repos\\tower-sta",
+      "PayloadDebugContentSnippet": "C:\\Users\\Virus\\repos\\tower-sta",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.Editor.UnityAdditionalFile.txt"
@@ -15067,7 +15067,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1107289,
       "PayloadLength": 45,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\lukaz\\repos",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Virus\\repos",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.Editor.rsp2"
@@ -15883,7 +15883,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1116524,
       "PayloadLength": 32,
-      "PayloadDebugContentSnippet": "C:\\Users\\lukaz\\repos\\tower-sta",
+      "PayloadDebugContentSnippet": "C:\\Users\\Virus\\repos\\tower-sta",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.Editor.UnityAdditionalFile.txt"
@@ -15909,7 +15909,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1207216,
       "PayloadLength": 45,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\lukaz\\repos",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Virus\\repos",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.Editor.rsp2"
@@ -16923,7 +16923,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1216468,
       "PayloadLength": 32,
-      "PayloadDebugContentSnippet": "C:\\Users\\lukaz\\repos\\tower-sta",
+      "PayloadDebugContentSnippet": "C:\\Users\\Virus\\repos\\tower-sta",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.UnityAdditionalFile.txt"
@@ -16949,7 +16949,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1298337,
       "PayloadLength": 45,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\lukaz\\repos",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Virus\\repos",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.rsp2"
@@ -17862,7 +17862,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1307331,
       "PayloadLength": 32,
-      "PayloadDebugContentSnippet": "C:\\Users\\lukaz\\repos\\tower-sta",
+      "PayloadDebugContentSnippet": "C:\\Users\\Virus\\repos\\tower-sta",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.AdaptivePerformance.UnityAdditionalFile.txt"
@@ -17888,7 +17888,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1346428,
       "PayloadLength": 45,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\lukaz\\repos",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Virus\\repos",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.AdaptivePerformance.rsp2"
@@ -18524,7 +18524,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1355689,
       "PayloadLength": 32,
-      "PayloadDebugContentSnippet": "C:\\Users\\lukaz\\repos\\tower-sta",
+      "PayloadDebugContentSnippet": "C:\\Users\\Virus\\repos\\tower-sta",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.Editor.UnityAdditionalFile.txt"
@@ -18550,7 +18550,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1410239,
       "PayloadLength": 45,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\lukaz\\repos",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Virus\\repos",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.Editor.rsp2"
@@ -19271,7 +19271,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1419675,
       "PayloadLength": 32,
-      "PayloadDebugContentSnippet": "C:\\Users\\lukaz\\repos\\tower-sta",
+      "PayloadDebugContentSnippet": "C:\\Users\\Virus\\repos\\tower-sta",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.State.UnityAdditionalFile.txt"
@@ -19297,7 +19297,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1455925,
       "PayloadLength": 45,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\lukaz\\repos",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Virus\\repos",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.State.rsp2"
@@ -19843,7 +19843,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1465015,
       "PayloadLength": 32,
-      "PayloadDebugContentSnippet": "C:\\Users\\lukaz\\repos\\tower-sta",
+      "PayloadDebugContentSnippet": "C:\\Users\\Virus\\repos\\tower-sta",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.AdaptivePerformance.Editor.UnityAdditionalFile.txt"
@@ -19869,7 +19869,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1501669,
       "PayloadLength": 45,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\lukaz\\repos",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Virus\\repos",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.AdaptivePerformance.Editor.rsp2"
@@ -20438,7 +20438,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1511016,
       "PayloadLength": 32,
-      "PayloadDebugContentSnippet": "C:\\Users\\lukaz\\repos\\tower-sta",
+      "PayloadDebugContentSnippet": "C:\\Users\\Virus\\repos\\tower-sta",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.AdaptivePerformance.Profiler.Editor.UnityAdditionalFile.txt"
@@ -20464,7 +20464,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1545606,
       "PayloadLength": 45,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\lukaz\\repos",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Virus\\repos",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.AdaptivePerformance.Profiler.Editor.rsp2"
@@ -21014,7 +21014,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1554981,
       "PayloadLength": 32,
-      "PayloadDebugContentSnippet": "C:\\Users\\lukaz\\repos\\tower-sta",
+      "PayloadDebugContentSnippet": "C:\\Users\\Virus\\repos\\tower-sta",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.SettingsProvider.Editor.UnityAdditionalFile.txt"
@@ -21040,7 +21040,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1590760,
       "PayloadLength": 45,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\lukaz\\repos",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Virus\\repos",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.SettingsProvider.Editor.rsp2"
@@ -21628,7 +21628,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1600399,
       "PayloadLength": 32,
-      "PayloadDebugContentSnippet": "C:\\Users\\lukaz\\repos\\tower-sta",
+      "PayloadDebugContentSnippet": "C:\\Users\\Virus\\repos\\tower-sta",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.State.Editor.UnityAdditionalFile.txt"
@@ -21654,7 +21654,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1642925,
       "PayloadLength": 45,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\lukaz\\repos",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Virus\\repos",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.State.Editor.rsp2"
@@ -22264,7 +22264,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1652561,
       "PayloadLength": 32,
-      "PayloadDebugContentSnippet": "C:\\Users\\lukaz\\repos\\tower-sta",
+      "PayloadDebugContentSnippet": "C:\\Users\\Virus\\repos\\tower-sta",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.AdaptivePerformance.Simulator.Editor.UnityAdditionalFile.txt"
@@ -22290,7 +22290,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1687459,
       "PayloadLength": 45,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\lukaz\\repos",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Virus\\repos",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.AdaptivePerformance.Simulator.Editor.rsp2"
@@ -22843,7 +22843,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1696822,
       "PayloadLength": 32,
-      "PayloadDebugContentSnippet": "C:\\Users\\lukaz\\repos\\tower-sta",
+      "PayloadDebugContentSnippet": "C:\\Users\\Virus\\repos\\tower-sta",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Shared.Editor.UnityAdditionalFile.txt"
@@ -22869,7 +22869,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1731562,
       "PayloadLength": 45,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\lukaz\\repos",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Virus\\repos",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Shared.Editor.rsp2"
@@ -23434,7 +23434,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1741298,
       "PayloadLength": 32,
-      "PayloadDebugContentSnippet": "C:\\Users\\lukaz\\repos\\tower-sta",
+      "PayloadDebugContentSnippet": "C:\\Users\\Virus\\repos\\tower-sta",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.AdaptivePerformance.Simulator.Extension.UnityAdditionalFile.txt"
@@ -23460,7 +23460,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1775881,
       "PayloadLength": 45,
-      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\lukaz\\repos",
+      "PayloadDebugContentSnippet": "/pathmap:\"C:\\Users\\Virus\\repos",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Unity.AdaptivePerformance.Simulator.Extension.rsp2"
@@ -24013,7 +24013,7 @@
       "ActionType": "WriteFile",
       "PayloadOffset": 1785331,
       "PayloadLength": 32,
-      "PayloadDebugContentSnippet": "C:\\Users\\lukaz\\repos\\tower-sta",
+      "PayloadDebugContentSnippet": "C:\\Users\\Virus\\repos\\tower-sta",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.UnityAdditionalFile.txt"
@@ -24025,7 +24025,7 @@
       "DisplayName": "Writing Assembly-CSharp.rsp",
       "ActionType": "WriteFile",
       "PayloadOffset": 1785449,
-      "PayloadLength": 33511,
+      "PayloadLength": 33578,
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -24037,7 +24037,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp2",
       "DisplayName": "Writing Assembly-CSharp.rsp2",
       "ActionType": "WriteFile",
-      "PayloadOffset": 1819047,
+      "PayloadOffset": 1819114,
       "PayloadLength": 0,
       "PayloadDebugContentSnippet": "",
       "Inputs": [],
@@ -24293,7 +24293,9 @@
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll",
         "Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll",
         "Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll",
-        "Assets/Scripts/startMenu.cs",
+        "Assets/Scripts/CameraController.cs",
+        "Assets/Scripts/mainScript.cs",
+        "Assets/Scripts/Platform.cs",
         "C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll",
         "C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll",
         "Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp"
@@ -24576,7 +24578,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp",
       "DisplayName": "Writing Assembly-CSharp.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 1819143,
+      "PayloadOffset": 1819210,
       "PayloadLength": 10463,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
@@ -25896,7 +25898,7 @@
     {
       "Annotation": "BuildPlayerDataGenerator Library/BuildPlayerData/Editor/TypeDb-All.json",
       "DisplayName": "BuildPlayerDataGenerator TypeDb-All",
-      "Action": "\"C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"C:\\Users\\lukaz\\repos\\tower-stack\\Library\\ScriptAssemblies\\Assembly-CSharp.dll\" -a=\"C:\\Users\\lukaz\\repos\\tower-stack\\Library\\ScriptAssemblies\\Unity.AdaptivePerformance.dll\" -a=\"C:\\Users\\lukaz\\repos\\tower-stack\\Library\\ScriptAssemblies\\Unity.Notifications.Android.dll\" -a=\"C:\\Users\\lukaz\\repos\\tower-stack\\Library\\ScriptAssemblies\\Unity.Notifications.iOS.dll\" -a=\"C:\\Users\\lukaz\\repos\\tower-stack\\Library\\ScriptAssemblies\\Unity.Notifications.Unified.dll\" -a=\"C:\\Users\\lukaz\\repos\\tower-stack\\Library\\ScriptAssemblies\\Unity.Profiling.Core.dll\" -a=\"C:\\Users\\lukaz\\repos\\tower-stack\\Library\\ScriptAssemblies\\Unity.Subsystem.Registration.dll\" -a=\"C:\\Users\\lukaz\\repos\\tower-stack\\Library\\ScriptAssemblies\\Unity.TextMeshPro.dll\" -a=\"C:\\Users\\lukaz\\repos\\tower-stack\\Library\\ScriptAssemblies\\Unity.Timeline.dll\" -a=\"C:\\Users\\lukaz\\repos\\tower-stack\\Library\\ScriptAssemblies\\Unity.VisualScripting.Core.dll\" -a=\"C:\\Users\\lukaz\\repos\\tower-stack\\Library\\ScriptAssemblies\\Unity.VisualScripting.Flow.dll\" -a=\"C:\\Users\\lukaz\\repos\\tower-stack\\Library\\ScriptAssemblies\\Unity.VisualScripting.State.dll\" -a=\"C:\\Users\\lukaz\\repos\\tower-stack\\Library\\ScriptAssemblies\\UnityEngine.TestRunner.dll\" -a=\"C:\\Users\\lukaz\\repos\\tower-stack\\Library\\ScriptAssemblies\\UnityEngine.UI.dll\" -a=\"C:\\Users\\lukaz\\repos\\tower-stack\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\\nunit.framework.dll\" -a=\"C:\\Users\\lukaz\\repos\\tower-stack\\Library\\PackageCache\\com.unity.visualscripting@1.9.4\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\\Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.30f1\\Editor\\Data\\Managed\\UnityEngine\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.30f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netfx\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.30f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netstandard\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.30f1\\Editor\\Data\\NetStandard\\Extensions\\2.0.0\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.30f1\\Editor\\Data\\NetStandard\\ref\\2.1.0\" -s=\"C:\\Users\\lukaz\\repos\\tower-stack\\Library\\ScriptAssemblies\" -s=\"C:\\Users\\lukaz\\repos\\tower-stack\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\" -s=\"C:\\Users\\lukaz\\repos\\tower-stack\\Library\\PackageCache\\com.unity.visualscripting@1.9.4\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
+      "Action": "\"C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"C:\\Users\\Virus\\repos\\tower-stack\\Library\\ScriptAssemblies\\Assembly-CSharp.dll\" -a=\"C:\\Users\\Virus\\repos\\tower-stack\\Library\\ScriptAssemblies\\Unity.AdaptivePerformance.dll\" -a=\"C:\\Users\\Virus\\repos\\tower-stack\\Library\\ScriptAssemblies\\Unity.Notifications.Android.dll\" -a=\"C:\\Users\\Virus\\repos\\tower-stack\\Library\\ScriptAssemblies\\Unity.Notifications.iOS.dll\" -a=\"C:\\Users\\Virus\\repos\\tower-stack\\Library\\ScriptAssemblies\\Unity.Notifications.Unified.dll\" -a=\"C:\\Users\\Virus\\repos\\tower-stack\\Library\\ScriptAssemblies\\Unity.Profiling.Core.dll\" -a=\"C:\\Users\\Virus\\repos\\tower-stack\\Library\\ScriptAssemblies\\Unity.Subsystem.Registration.dll\" -a=\"C:\\Users\\Virus\\repos\\tower-stack\\Library\\ScriptAssemblies\\Unity.TextMeshPro.dll\" -a=\"C:\\Users\\Virus\\repos\\tower-stack\\Library\\ScriptAssemblies\\Unity.Timeline.dll\" -a=\"C:\\Users\\Virus\\repos\\tower-stack\\Library\\ScriptAssemblies\\Unity.VisualScripting.Core.dll\" -a=\"C:\\Users\\Virus\\repos\\tower-stack\\Library\\ScriptAssemblies\\Unity.VisualScripting.Flow.dll\" -a=\"C:\\Users\\Virus\\repos\\tower-stack\\Library\\ScriptAssemblies\\Unity.VisualScripting.State.dll\" -a=\"C:\\Users\\Virus\\repos\\tower-stack\\Library\\ScriptAssemblies\\UnityEngine.TestRunner.dll\" -a=\"C:\\Users\\Virus\\repos\\tower-stack\\Library\\ScriptAssemblies\\UnityEngine.UI.dll\" -a=\"C:\\Users\\Virus\\repos\\tower-stack\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\\nunit.framework.dll\" -a=\"C:\\Users\\Virus\\repos\\tower-stack\\Library\\PackageCache\\com.unity.visualscripting@1.9.4\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\\Unity.VisualScripting.Antlr3.Runtime.dll\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.30f1\\Editor\\Data\\Managed\\UnityEngine\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.30f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netfx\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.30f1\\Editor\\Data\\NetStandard\\compat\\2.1.0\\shims\\netstandard\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.30f1\\Editor\\Data\\NetStandard\\Extensions\\2.0.0\" -s=\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.30f1\\Editor\\Data\\NetStandard\\ref\\2.1.0\" -s=\"C:\\Users\\Virus\\repos\\tower-stack\\Library\\ScriptAssemblies\" -s=\"C:\\Users\\Virus\\repos\\tower-stack\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6\\net35\\unity-custom\" -s=\"C:\\Users\\Virus\\repos\\tower-stack\\Library\\PackageCache\\com.unity.visualscripting@1.9.4\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
       "Inputs": [
         "C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/Tools/netcorerun/netcorerun.exe",
         "C:/Program Files/Unity/Hub/Editor/2022.3.30f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe",
@@ -26211,6 +26213,6 @@
   "SharedResources": [],
   "Scanners": [],
   "Identifier": "Library/Bee/1900b0aE.dag.json",
-  "PayloadsFile": "C:/Users/lukaz/repos/tower-stack/Library/Bee/1900b0aE.dag.payloads",
+  "PayloadsFile": "C:/Users/Virus/repos/tower-stack/Library/Bee/1900b0aE.dag.payloads",
   "RelativePathToRoot": "../.."
 }
