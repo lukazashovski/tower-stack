@@ -10,7 +10,7 @@ public class mainScript : MonoBehaviour
     // Variables from Scene
     public Button mainButton;
     public Platform platformTemplate;
-    public CameraController camera;
+    public new CameraController camera;
     public TextMeshProUGUI buttonText;
     public Material placedMaterial;
 
@@ -22,6 +22,9 @@ public class mainScript : MonoBehaviour
 
     private Platform platform;
     private Platform previousPlatform;
+    private float nextPlatformScale;
+
+    private float platformSpeed = 5.0f;
 
     void Start()
     {
@@ -34,53 +37,96 @@ public class mainScript : MonoBehaviour
         {
             buttonText.gameObject.SetActive(false);
             gameStarted = true;
-            SpawnPlatform();
+            SpawnPlatform(5);
         } else {
             PlacePlatform();
         }
     }
 
-    void SpawnPlatform() {
-        GameObject previousPlatformObject = GameObject.Find($"platform-{currentY - 1}");
-        previousPlatform = previousPlatformObject.GetComponent<Platform>();
-        previousPlatformX = previousPlatform.transform.position.x;
-
-        // get platform size based on placed position - NEXT TO-DO
-
-
-        platform = Instantiate(platformTemplate);
-        platform.name = $"platform-{currentY}";
-        platform.transform.position = new Vector3(previousPlatformX, currentY, 0);
-    }
-
     void PlacePlatform() {
-        float previousPlatformPos = 0f;
-
         GameObject previousPlatformObject = GameObject.Find($"platform-{currentY - 1}");
-        previousPlatform = previousPlatformObject?.GetComponent<Platform>();
-        previousPlatformPos = previousPlatform.transform.position.x;
+        if (previousPlatformObject != null) {
+            previousPlatform = previousPlatformObject.GetComponent<Platform>();
+            float previousPlatformPos = previousPlatform.transform.position.x;
+            float previousPlatformScale = previousPlatform.transform.localScale.x;
 
-        platform.Place();
-        Vector3 platformPosition = platform.transform.position;
-        if (platformPosition.x < previousPlatformPos + 0.4f && platformPosition.x > previousPlatformPos - 0.4f) {
-            platformPosition.x = previousPlatformPos;
+            platform.Place();
+            Vector3 platformPosition = platform.transform.position;
+            float currentPlatformScale = platform.transform.localScale.x;
+
+            // Snap the platform to the previous one if it's close enough
+            if (platformPosition.x < previousPlatformPos + currentPlatformScale / 10 && platformPosition.x > previousPlatformPos - currentPlatformScale / 10) {
+                platformPosition.x = previousPlatformPos;
+                platform.transform.position = platformPosition;
+            }
+
+            // Calculate the start and end positions of both platforms
+            float previousPlatformStart = previousPlatformPos - previousPlatformScale / 2;
+            float previousPlatformEnd = previousPlatformPos + previousPlatformScale / 2;
+            float currentPlatformStart = platformPosition.x - currentPlatformScale / 2;
+            float currentPlatformEnd = platformPosition.x + currentPlatformScale / 2;
+
+            // Calculate the overlap
+            float overlapStart = Mathf.Max(previousPlatformStart, currentPlatformStart);
+            float overlapEnd = Mathf.Min(previousPlatformEnd, currentPlatformEnd);
+
+            if (overlapStart < overlapEnd) {
+                nextPlatformScale = overlapEnd - overlapStart;
+            } else {
+                nextPlatformScale = 0;
+            }
+
+            // Center the new platform on the overlap
+            platformPosition.x = (overlapStart + overlapEnd) / 2;
             platform.transform.position = platformPosition;
+
+            // Set the new scale
+            Vector3 newScale = platform.transform.localScale;
+            newScale.x = nextPlatformScale;
+            platform.transform.localScale = newScale;
+
+            // Update material to indicate placement
+            Renderer platformRenderer = platform.GetComponent<Renderer>();
+            platformRenderer.material = placedMaterial;
+
+            // Move to next position
+            platform = null;
+            currentY += 1;
+            platformSpeed += 0.3f;
+            camera.MoveUp();
+            SpawnPlatform(nextPlatformScale);
         }
-        
-        Renderer platformRenderer = platform.GetComponent<Renderer>();
-        platformRenderer.material = placedMaterial;
-        
-        platform = null;
-        currentY += 1;
-        camera.MoveUp();
-        SpawnPlatform();
     }
+
+    void SpawnPlatform(float platformScale) {
+        if (platformScale == 0) {
+            GameOver();
+        } else {
+            GameObject previousPlatformObject = GameObject.Find($"platform-{currentY - 1}");
+            if (previousPlatformObject != null) {
+                previousPlatform = previousPlatformObject.GetComponent<Platform>();
+                previousPlatformX = previousPlatform.transform.position.x;
+            }
+
+            platform = Instantiate(platformTemplate);
+            platform.name = $"platform-{currentY}";
+            platform.speed = platformSpeed;
+            platform.transform.localScale = new Vector3(platformScale, 1, 5);
+            platform.transform.position = new Vector3(previousPlatformX, currentY, 0);
+        }
+    }
+
+
 
     void CleanGame() {
         if (currentY >= 20) {
             GameObject oldPlatform = GameObject.Find($"platform-{currentY - 19}");
             Destroy(oldPlatform);
         }
+    }
+
+    void GameOver() {
+        Application.Quit();
     }
 
     void Update() {

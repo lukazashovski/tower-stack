@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Platform : MonoBehaviour
 {
-    private float speed = 5.0f;
+    public float speed = 5.0f;
     public bool movingRight = true;
     public bool isMoving = true;
 
@@ -33,4 +33,5 @@ public class Platform : MonoBehaviour
     {
         isMoving = false;
     }
+
 }
