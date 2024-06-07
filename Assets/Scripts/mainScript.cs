@@ -18,7 +18,7 @@ public class mainScript : MonoBehaviour
     private bool gameStarted = false;
     
     private float currentY = 1;
-    private float currentX = 0;
+    private float previousPlatformX = 0;
 
     private Platform platform;
     private Platform previousPlatform;
@@ -41,52 +41,34 @@ public class mainScript : MonoBehaviour
     }
 
     void SpawnPlatform() {
-        if (currentY >= 2) {
-            GameObject previousPlatformObject = GameObject.Find($"platform-{currentY - 1}");
-            if (previousPlatformObject != null)
-            {
-                previousPlatform = previousPlatformObject.GetComponent<Platform>();
-                currentX = previousPlatform.transform.position.x;
-            }
-        }
+        GameObject previousPlatformObject = GameObject.Find($"platform-{currentY - 1}");
+        previousPlatform = previousPlatformObject.GetComponent<Platform>();
+        previousPlatformX = previousPlatform.transform.position.x;
+
+        // get platform size based on placed position - NEXT TO-DO
+
+
         platform = Instantiate(platformTemplate);
         platform.name = $"platform-{currentY}";
-        platform.transform.position = new Vector3(currentX, currentY, 0);
+        platform.transform.position = new Vector3(previousPlatformX, currentY, 0);
     }
 
     void PlacePlatform() {
         float previousPlatformPos = 0f;
 
-    if (currentY >= 2) {
         GameObject previousPlatformObject = GameObject.Find($"platform-{currentY - 1}");
         previousPlatform = previousPlatformObject?.GetComponent<Platform>();
-        if (previousPlatform != null) {
-            previousPlatformPos = previousPlatform.transform.position.x;
-        } else {
-            Debug.LogError("Previous platform does not have a Platform component!");
-            return;
-        }
-    } else {
-        GameObject previousPlatformObject = GameObject.Find($"platform-{currentY - 1}");
-        if (previousPlatformObject != null) {
-            previousPlatformPos = previousPlatformObject.transform.position.x;
-        }
-    }
-
+        previousPlatformPos = previousPlatform.transform.position.x;
 
         platform.Place();
         Vector3 platformPosition = platform.transform.position;
-        if (platformPosition.x < previousPlatformPos + 0.25f && platformPosition.x > previousPlatformPos - 0.25f) {
+        if (platformPosition.x < previousPlatformPos + 0.4f && platformPosition.x > previousPlatformPos - 0.4f) {
             platformPosition.x = previousPlatformPos;
             platform.transform.position = platformPosition;
         }
         
         Renderer platformRenderer = platform.GetComponent<Renderer>();
-        if (platformRenderer != null) {
-            platformRenderer.material = placedMaterial;
-        } else {
-            Debug.LogError("Current platform does not have a Renderer component!");
-        }
+        platformRenderer.material = placedMaterial;
         
         platform = null;
         currentY += 1;
@@ -94,6 +76,16 @@ public class mainScript : MonoBehaviour
         SpawnPlatform();
     }
 
+    void CleanGame() {
+        if (currentY >= 20) {
+            GameObject oldPlatform = GameObject.Find($"platform-{currentY - 19}");
+            Destroy(oldPlatform);
+        }
+    }
+
+    void Update() {
+        CleanGame();
+    }
 
     /* OLD SCRIPT
     void Start()
