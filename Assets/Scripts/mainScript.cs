@@ -12,11 +12,11 @@ public class mainScript : MonoBehaviour
     public Platform platformTemplate;
     public new CameraController camera;
     public TextMeshProUGUI buttonText;
+    public TextMeshPro scoreText;
     public Material placedMaterial;
+    public GameObject scoreObject;
 
     // Script variables
-    private bool gameStarted = false;
-    
     private float currentY = 1;
     private float previousPlatformX = 0;
 
@@ -25,6 +25,9 @@ public class mainScript : MonoBehaviour
     private float nextPlatformScale;
 
     private float platformSpeed = 5.0f;
+
+    private bool gameStarted = false;
+    private float gameScore = 0;
 
     void Start()
     {
@@ -83,6 +86,9 @@ public class mainScript : MonoBehaviour
             // Set the new scale
             Vector3 newScale = platform.transform.localScale;
             newScale.x = nextPlatformScale;
+            if (nextPlatformScale == 0) {
+                newScale.z = 0;
+            }
             platform.transform.localScale = newScale;
 
             // Update material to indicate placement
@@ -94,14 +100,16 @@ public class mainScript : MonoBehaviour
             currentY += 1;
             platformSpeed += 0.3f;
             camera.MoveUp();
-            SpawnPlatform(nextPlatformScale);
+            if (nextPlatformScale > 0) {
+                SpawnPlatform(nextPlatformScale);
+                gameScore += 1;
+            } else {
+                GameOver();
+            }
         }
     }
 
     void SpawnPlatform(float platformScale) {
-        if (platformScale == 0) {
-            GameOver();
-        } else {
             GameObject previousPlatformObject = GameObject.Find($"platform-{currentY - 1}");
             if (previousPlatformObject != null) {
                 previousPlatform = previousPlatformObject.GetComponent<Platform>();
@@ -112,8 +120,8 @@ public class mainScript : MonoBehaviour
             platform.name = $"platform-{currentY}";
             platform.speed = platformSpeed;
             platform.transform.localScale = new Vector3(platformScale, 1, 5);
+            
             platform.transform.position = new Vector3(previousPlatformX, currentY, 0);
-        }
     }
 
 
@@ -126,10 +134,11 @@ public class mainScript : MonoBehaviour
     }
 
     void GameOver() {
-        Application.Quit();
+        Debug.Log("Game Over");
     }
 
     void Update() {
+        scoreText.text = gameScore.ToString();
         CleanGame();
     }
 
