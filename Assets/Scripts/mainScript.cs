@@ -16,9 +16,17 @@ public class mainScript : MonoBehaviour
     public Material placedMaterial;
     public GameObject scoreObject;
 
+    // Game Over
+    public GameObject gameOverFrame;
+    public TextMeshProUGUI highScoreValue;
+    public Button tryAgainButton;
+    public Button toMenuButton;
+
     // Script variables
     private float currentY = 1;
     private float previousPlatformX = 0;
+
+    private float scoreTextY = 957;
 
     private Platform platform;
     private Platform previousPlatform;
@@ -97,12 +105,15 @@ public class mainScript : MonoBehaviour
 
             // Move to next position
             platform = null;
-            currentY += 1;
             platformSpeed += 0.3f;
-            camera.MoveUp();
+            currentY += 1;
+
             if (nextPlatformScale > 0) {
                 SpawnPlatform(nextPlatformScale);
                 gameScore += 1;
+                scoreTextY += 1;
+                scoreObject.transform.position = new Vector3(540, scoreTextY);
+                camera.MoveUp();
             } else {
                 GameOver();
             }
@@ -133,94 +144,18 @@ public class mainScript : MonoBehaviour
         }
     }
 
-    void GameOver() {
-        Debug.Log("Game Over");
+void GameOver() {
+    Debug.Log("Game Over");
+    if (currentY > highScoreValue) {
+        highScoreValue = currentY;
     }
+    gameOverFrame.SetActive(true);
+    mainButton.enabled = false;
+}
+
 
     void Update() {
         scoreText.text = gameScore.ToString();
         CleanGame();
     }
-
-    /* OLD SCRIPT
-    void Start()
-    {
-        if (mainButton != null)
-        {
-            mainButton.onClick.AddListener(OnButtonClick);
-        }
-        else
-        {
-            Debug.LogError("Button not assigned in the Inspector");
-        }
-
-        if (platformTemplate == null)
-        {
-            Debug.LogError("Platform template not assigned in the Inspector");
-        }
-
-        if (buttonText == null)
-        {
-            Debug.LogError("Button text not assigned in the Inspector");
-        }
-    }
-
-    void OnButtonClick()
-    {
-        if (!gameStarted)
-        {
-            StartGame();
-        }
-        else
-        {
-            PlacePlatform();
-        }
-    }
-
-    void StartGame()
-    {
-        if (buttonText != null)
-        {
-            buttonText.gameObject.SetActive(false);
-        }
-
-        gameStarted = true;
-        SpawnNewPlatform();
-    }
-
-    void PlacePlatform()
-    {
-        if (currentPlatform != null)
-        {
-            currentPlatform.StopMoving();
-            // position of platform when placed Debug.Log(currentPlatform.transform.position.x);
-            currentPlatform = null;
-            currentY += 1;
-            camera.MoveUp();
-            SpawnNewPlatform();
-        }
-    }
-
-    void SpawnNewPlatform()
-    {
-        currentPlatform = Instantiate(platformTemplate);
-        currentPlatform.transform.position = new Vector3(0, currentY, 0);
-        // Check if previousPlatform is not null before using it
-        if (previousPlatform != null)
-        {
-            if (currentPlatform.transform.position.x > previousPlatform.transform.position.x)
-            {
-                Vector3 newScale = currentPlatform.transform.localScale;
-                newScale.x -= currentPlatform.transform.position.x - previousPlatform.transform.position.x;
-                currentPlatform.transform.localScale = newScale;
-            }
-            else
-            {
-                Vector3 newScale = currentPlatform.transform.localScale;
-                newScale.x -= previousPlatform.transform.position.x + currentPlatform.transform.position.x;
-                currentPlatform.transform.localScale = newScale;
-            }
-        }
-    }
-    */
 }
