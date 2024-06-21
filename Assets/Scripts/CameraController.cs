@@ -21,4 +21,9 @@ public class CameraController : MonoBehaviour
     {
         targetY += 1;
     }
+
+    public void ResetPos()
+    {
+        targetY = 5.624f;
+    }
 }
